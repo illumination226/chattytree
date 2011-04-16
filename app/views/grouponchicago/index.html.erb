@@ -29,7 +29,8 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 require 'rss/2.0'
 require 'open-uri'
   #Group on Chicago?
-  feed_url = "http://feeds.feedburner.com/groupon" 
+  feed_url = "http://feeds.feedburner.com/groupon"
+  output = "" 
   open(feed_url) do |http|
     response = http.read
     result = RSS::Parser.parse(response, false)
