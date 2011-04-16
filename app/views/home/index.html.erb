@@ -1,5 +1,17 @@
 <body topmargin="0" bottommargin="0">
-<%= render 'partials/sheader' %>
+<center>
+<div class="center">
+<div class="innerSite">
+<h1 class="siteLogo"><a href="http://sahmcentral.com"><img class="logo" src="http://sahmcentral.com/images/logo-beta.png" alt="Sahmcentral.com"></a></h1>
+<div class="Navigation">
+    <ul><li><%= link_to 'Blog', posts_path %></li><li><%= link_to 'Announcements', announcements_path %></li><li><%= link_to 'Survey', new_survey_path%></li><li><a class="lastrow" href="/about">About Us</a></li></ul>
+</div>
+<div style="clear:both;"></div>
+<div class="siteNavBottom">
+</div>
+<div class="innerBody">
+<div class="Header">
+</div>
 <div class="InnerContent">
 <div class="LeftContent">
 <div class="PadLeft">
@@ -24,9 +36,15 @@ require 'open-uri'
 <%=raw render :text => output%>
  </div>
  </div>
-<%= render 'partials/scolumn2' %>
+<div class="RightContent">
+<div class="Section">
 </div>
-<%= render 'partials/sfooter' %>
+</div>
+</div>
+<div class="footer">
+<div class="clear"></div>
+Copyright 2011 &copy; chattytree.com, All rights reserved.
+</div>
 </div>
 </div>
 </div>
