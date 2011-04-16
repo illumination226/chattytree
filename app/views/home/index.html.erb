@@ -8,9 +8,9 @@ require 'open-uri'
         result = RSS::Parser.parse(response, false)
         output = "<span class=\"feedTitle\">#{result.channel.title}</span><br /><ul>" 
         result.items.each_with_index do |item, i|
-          if item.category.eql? "<category>Woot</category>"
+         # if item.category.eql? "<category>Woot</category>"
          	 output += "<li><a href=\"#{item.link}\">#{item.title}</a><h3>#{item.category}</h3><p>#{item.description}</p></li>"  
-          end 
+         # end 
           i = i + 1
         end 
         output += "</ul>" 
