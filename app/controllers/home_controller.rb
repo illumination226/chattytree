@@ -1,20 +1,20 @@
 class HomeController < ApplicationController
   def index
-	  xml = File.read('http://static.railstips.org/images/articles/2008/8/9/timeline.xml')
-	  puts Benchmark.measure {
-	  doc, statuses = REXML::Document.new(xml), []
-	  doc.elements.each('statuses/status') do |s|
-	    h = {:user => {}}
-	    %w[created_at id text source truncated in_reply_to_status_id in_reply_to_user_id favorited].each do |a|
-	      h[a.intern] = s.elements[a].text
-	    end
-	    %w[id name screen_name location description profile_image_url url protected followers_count].each do |a|
-	      h[:user][a.intern] = s.elements['user'].elements[a].text
-	    end
-	    statuses << h
-	  end
-	  # pp statuses
-	  }
   end
+  
+  def parseFeed (url, length)
+      feed_url = url
+      output = "";
+      open(feed_url) do |http|
+        response = http.read
+        result = RSS::Parser.parse(response, false)
+        output = "<span class=\"feedTitle\">#{result.channel.title}</span><br /><ul>" 
+        result.items.each_with_index do |item, i|
+          output += "<li><a href=\"#{item.link}\">#{item.title}</a></li>" if ++i < length  
+        end 
+        output += "</ul>" 
+      end
+      return output
+   end
 
 end
