@@ -10,8 +10,8 @@ require 'open-uri'
         result.items.each_with_index do |item, i|
           if "#{item.category}" == "<category>Woot</category>"
          	 output += "<li><a href=\"#{item.link}\">#{item.title}</a><h3>#{item.category}</h3><p>#{item.description}</p></li>"  
+          	 break
           end 
-          i = 1
         end 
         output += "</ul>" 
       end
