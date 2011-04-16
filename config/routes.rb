@@ -1,4 +1,8 @@
 Chattytree::Application.routes.draw do
+  get "grouponphoenix/index"
+
+  get "woot/index"
+
   get "home/index"
 
   # The priority is based upon order of creation:
