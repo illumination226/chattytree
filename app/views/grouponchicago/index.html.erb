@@ -28,20 +28,17 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 <%
 require 'rss/2.0'
 require 'open-uri'
-  #Woot
-  feed_url = "http://www.woot.com/Blog/Feed.ashx" 
-  output = "";
+  #Group on Chicago?
+  feed_url = "http://feeds.feedburner.com/groupon" 
   open(feed_url) do |http|
     response = http.read
     result = RSS::Parser.parse(response, false)
      output += "<span class=\"feedTitle\">#{result.channel.title}</span><br /><ul>" 
     result.items.each_with_index do |item, i|
-      if "#{item.category}" == "<category>Woot</category>"
-     	 output += "<li><a href=\"#{item.link}\">#{item.title}</a><h3>#{item.category}</h3><p>#{item.description}</p></li>"  
-      end 
+     	 output += "<li><a href=\"#{item.link}\">#{item.title}</a><p>#{item.description}</p></li>"
     end 
     output += "</ul>" 
-  end
+  end    
 %>
 <%=raw render :text => output%>
  </div>
