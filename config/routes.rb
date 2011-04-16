@@ -1,4 +1,6 @@
 Chattytree::Application.routes.draw do
+  get "grouponmiami/index"
+
   get "grouponphoenix/index"
   get "grouponchicago/index"
 
