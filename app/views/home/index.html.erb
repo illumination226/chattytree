@@ -45,7 +45,6 @@ require 'open-uri'
       end
       #Group on Phoenix
       feed_url = "http://feeds.feedburner.com/grouponphoenix" 
-      output = "";
       open(feed_url) do |http|
         response = http.read
         result = RSS::Parser.parse(response, false)
