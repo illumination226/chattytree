@@ -1,0 +1,223 @@
+@charset "utf-8";
+body {
+background:url("http://sahmcentral.com/images/background.png") repeat scroll 0 0 #FFFFFF;
+color:#111111;
+font-family:"Trebuchet MS",Helvetica,sans-serif;
+}
+a {
+text-decoration:none;
+color:#000000;
+}
+.center {
+margin-left:auto;
+margin-right:auto;
+}
+#HomePage .PadLeft {
+padding: 0 20px;
+}
+#HomePage .InnerContent {
+min-height:0;
+}
+#HomePage .Navigation {
+padding:0;
+text-align:center;
+}
+#HomePage .Navigation ul {
+height:auto;
+float:none;
+}
+#HomePage .Navigation ul li a{
+font-size:24px;
+margin:20px 54px;
+padding:20px;
+}
+.homeLogo{
+background: transparent url("http://sahmcentral.com/images/logo-home-beta.png") no-repeat scroll 0px 0px;
+width:941px;
+height:320px;
+}
+.siteLogo{
+color: #ccc;
+margin:0 0 0 15px;
+padding:0;
+float:left;
+}
+.pageFooter .siteLogo{
+margin:-15px 0 0 15px;
+}
+.siteLogo img {
+border:medium none;
+}
+.siteLogoMessage {
+color: #aaa;
+margin:0 0 0 75px;
+}
+.innerSite {
+width:981px;
+}
+.innerSite {
+width:981px;
+text-align:left;
+background:#ffffff;
+border: 1px solid #ccc;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomleft: 10px;
+-moz-border-radius-bottomright: 10px;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-webkit-border-bottom-right-radius: 10px;
+}
+.siteNavBottom {
+border-bottom: 1px dotted #CCCCCC;
+margin: 0 15px 0 20px;
+}
+.Navigation {
+padding:10px 0 0 8px;
+/*background:url(NavigationGradiant.png) repeat-x;*/
+}
+.Navigation ul {
+padding:0;
+margin:0;
+display:block;
+height:30px;
+float:right;
+}
+.Navigation ul li {
+float:left;
+display:block;
+text-align:center;
+}
+.Navigation ul li a{
+color:#111;
+font-size:20px;
+vertical-align:middle;
+display:block;
+line-height:30px;
+overflow:hidden;
+font-weight:normal;
+font-style:italic;
+margin:5px 10px;
+padding:5px 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomleft: 10px;
+-moz-border-radius-bottomright: 10px;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-webkit-border-bottom-right-radius: 10px;
+}
+.Navigation ul li .lastrow {
+}
+.Navigation ul li a:hover {
+background:#ccc;
+}
+.InnerContent {
+min-height:400px;
+}
+.LeftContent {
+float:left;
+width:758px;
+}
+.LeftContent h1 {
+margin:0;
+padding:0;
+}
+.PadLeft {
+padding-left:20px;
+padding-right:10px;
+}
+.PadTop {
+padding:10px 0;
+}
+.LeftContent .FloatRight {
+float:right;
+}
+.LeftContent .FloatRight h5 {
+margin:0;
+padding:0;
+} 
+.LeftContent div h3 {
+margin:0;
+padding:0;
+}
+.LeftContent .comment {
+border-bottom:2px dashed #CCCCCC;
+
+}
+.LeftContent .beginComment h2 {
+border-top:2px dashed #333333;
+padding-top:5px;
+}
+.LeftContent .commentContent {
+padding:0 0 0 10px;
+}
+.LeftContent .commentLabel {
+float:left;
+padding-right:10px;
+width:60px;
+}
+.LeftContent .field {
+padding: 5px 0;
+}
+.InnerContent .paintingOnly {
+padding:20px 0 20px 250px;
+}
+.InnerContent .GalleryImages a {
+padding: 10px 50px;
+display:block;
+float:left;
+}
+.RightContent {
+float:left;
+width:220px;
+min-height:600px;
+}
+.RightContent .Section {
+margin:10px;
+border: 1px solid #ccc;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomleft: 10px;
+-moz-border-radius-bottomright: 10px;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-webkit-border-bottom-right-radius: 10px;
+background:none repeat scroll 0 0 #ccc;
+}
+.InnerContent .RightContent h3 {
+padding:8px;
+margin:0;
+text-align:center;
+}
+.InnerContent .RightContent .Section div {
+display:block;
+font-size:18px;
+padding:10px;
+background:none repeat scroll 0 0 #ffffff;
+}
+.InnerContent .RightContent div a {
+	color:#111111;
+}
+#email_alert_address {
+width:150px;
+}
+textarea {
+	width:500px;
+	height:150px;
+}
+.footer {
+color:#111;
+font-size:12px;
+text-align:center;
+clear:both;
+}
+.footer a {
+padding:0 10px;
+}
+.footer .developer {
+font-size:10px;
+}

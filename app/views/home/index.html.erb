@@ -1,3 +1,8 @@
+<body topmargin="0" bottommargin="0">
+<%= render 'partials/sheader' %>
+<div class="InnerContent">
+<div class="LeftContent">
+<div class="PadLeft">
 <%
 require 'rss/2.0'
 require 'open-uri'
@@ -17,3 +22,13 @@ require 'open-uri'
       end
 %>
 <%=raw render :text => output%>
+ </div>
+ </div>
+<%= render 'partials/scolumn2' %>
+</div>
+<%= render 'partials/sfooter' %>
+</div>
+</div>
+</div>
+</center>
+</body>
