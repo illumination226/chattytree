@@ -11,6 +11,7 @@ require 'open-uri'
           if item.category.eql? "Woot" && if i < 10
          	 output += "<li><a href=\"#{item.link}\">#{item.title}</a><h3>#{item.category}</h3><p>#{item.description}</p></li>"  
           end 
+          i = i + 1
         end 
         output += "</ul>" 
       end
