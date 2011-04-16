@@ -9,6 +9,7 @@ require 'open-uri'
         output = "<span class=\"feedTitle\">#{result.channel.title}</span><br /><ul>" 
         result.items.each_with_index do |item, i|
           if item.category == "<category>Woot</category>"
+         	 output += item.category
          	 output += "<li><a href=\"#{item.link}\">#{item.title}</a><h3>#{item.category}</h3><p>#{item.description}</p></li>"  
           end 
           i = i + 1
