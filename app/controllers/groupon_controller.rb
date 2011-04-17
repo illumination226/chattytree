@@ -3,6 +3,10 @@ class GrouponController < ApplicationController
   	@output = parseFeed("http://feeds.feedburner.com/groupon")
   end
   
+  def phoenix
+  	@output = parseFeed("http://feeds.feedburner.com/grouponphoenix")
+  end  
+  
     def parseFeed (url)
       require 'rss/2.0'
 	  require 'open-uri'
