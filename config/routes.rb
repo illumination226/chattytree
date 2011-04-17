@@ -2,7 +2,7 @@ Chattytree::Application.routes.draw do
 #  get "grouponmiami/index"
 #  get "groupon/index"
   
-   resources :groupons
+   resources :groupon
 
 #  get "grouponphoenix/index"
 #  get "grouponchicago/index"
