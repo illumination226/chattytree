@@ -1,0 +1,128 @@
+[2011-04-16 23:24:38] INFO  WEBrick 1.3.1
+[2011-04-16 23:24:38] INFO  ruby 1.8.7 (2010-08-16) [i386-linux]
+[2011-04-16 23:24:38] INFO  WEBrick::HTTPServer#start: pid=26324 port=3001
+[2011-04-16 23:25:31] INFO  going to shutdown ...
+[2011-04-16 23:25:31] INFO  WEBrick::HTTPServer#start done.
+=> Booting WEBrick
+=> Rails 3.0.3 application starting in development on http://0.0.0.0:3001
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+Exiting
+[2011-04-16 23:25:36] INFO  WEBrick 1.3.1
+[2011-04-16 23:25:36] INFO  ruby 1.8.7 (2010-08-16) [i386-linux]
+[2011-04-16 23:25:36] INFO  WEBrick::HTTPServer#start: pid=26325 port=3000
+[2011-04-16 23:26:02] INFO  going to shutdown ...
+[2011-04-16 23:26:02] INFO  WEBrick::HTTPServer#start done.
+=> Booting WEBrick
+=> Rails 3.0.3 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+Exiting
+[2011-04-16 23:26:31] INFO  WEBrick 1.3.1
+[2011-04-16 23:26:31] INFO  ruby 1.8.7 (2010-08-16) [i386-linux]
+[2011-04-16 23:26:31] INFO  WEBrick::HTTPServer#start: pid=26330 port=3000
+=> Booting WEBrick
+=> Rails 3.0.3 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+
+
+Started GET "/" for 72.211.139.159 at Sat Apr 16 23:26:32 +0000 2011
+  Processing by HomeController#index as HTML
+Rendered text template (0.0ms)
+Rendered home/index.html.erb within layouts/application (1268.1ms)
+Completed 200 OK in 1273ms (Views: 1272.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/background.png" for 72.211.139.159 at Sat Apr 16 23:26:34 +0000 2011
+
+ActionController::RoutingError (No route matches "/images/background.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 166.205.8.29 at Sat Apr 16 23:26:44 +0000 2011
+  Processing by HomeController#index as HTML
+Rendered text template (0.0ms)
+Rendered home/index.html.erb within layouts/application (983.5ms)
+Completed 200 OK in 989ms (Views: 988.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/background.png" for 166.205.8.29 at Sat Apr 16 23:26:55 +0000 2011
+
+ActionController::RoutingError (No route matches "/images/background.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/posts" for 66.249.71.87 at Sun Apr 17 01:17:26 +0000 2011
+
+ActionController::RoutingError (No route matches "/posts"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/posts" for 66.249.71.77 at Sun Apr 17 02:00:02 +0000 2011
+
+ActionController::RoutingError (No route matches "/posts"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 166.205.8.29 at Sun Apr 17 02:46:55 +0000 2011
+  Processing by HomeController#index as HTML
+Rendered text template (0.0ms)
+Rendered home/index.html.erb within layouts/application (813.6ms)
+Completed 200 OK in 819ms (Views: 818.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/background.png" for 166.205.8.29 at Sun Apr 17 02:47:04 +0000 2011
+
+ActionController::RoutingError (No route matches "/images/background.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 72.14.194.49 at Sun Apr 17 02:50:50 +0000 2011
+  Processing by HomeController#index as HTML
+Rendered text template (0.0ms)
+Rendered home/index.html.erb within layouts/application (731.9ms)
+Completed 200 OK in 736ms (Views: 736.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?PHPSESSID=5gh6ncjh00043TRMWPHCEGZG%5C" for 46.161.10.50 at Sun Apr 17 03:56:13 +0000 2011
+  Processing by HomeController#index as HTML
+  Parameters: {"PHPSESSID"=>"5gh6ncjh00043TRMWPHCEGZG\\"}
+Rendered text template (0.0ms)
+Rendered home/index.html.erb within layouts/application (818.6ms)
+Completed 200 OK in 823ms (Views: 822.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 72.211.139.159 at Sun Apr 17 04:06:37 +0000 2011
+  Processing by HomeController#index as HTML
+Rendered text template (0.0ms)
+Rendered home/index.html.erb within layouts/application (777.5ms)
+Completed 200 OK in 782ms (Views: 781.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/background.png" for 72.211.139.159 at Sun Apr 17 04:06:39 +0000 2011
+
+ActionController::RoutingError (No route matches "/images/background.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 72.211.139.159 at Sun Apr 17 04:06:42 +0000 2011
+  Processing by HomeController#index as HTML
+Rendered text template (0.0ms)
+Rendered home/index.html.erb within layouts/application (753.5ms)
+Completed 200 OK in 758ms (Views: 757.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/background.png" 

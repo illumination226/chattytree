@@ -1,0 +1,2 @@
+class GrouponController < ApplicationController
+end
