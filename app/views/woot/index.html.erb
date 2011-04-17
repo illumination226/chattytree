@@ -1,30 +1,4 @@
-<body topmargin="0" bottommargin="0">
-<center>
-<div class="center">
-<div class="innerSite">
-<h1 class="siteLogo"></h1>
-<div class="Navigation">
-</div>
-<div style="clear:both;"></div>
-<div class="siteNavBottom">
-</div>
-<div class="innerBody">
-<div class="Header">
-<script type="text/javascript"><!--
-google_ad_client = "pub-6224413059041410";
-/* 728x90, created 4/16/11 */
-google_ad_slot = "7349374386";
-google_ad_width = 728;
-google_ad_height = 90;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>
-<div class="InnerContent">
-<div class="LeftContent">
-<div class="PadLeft">
+<%= render 'partials/top' %>
 <%
 require 'rss/2.0'
 require 'open-uri'
@@ -44,47 +18,4 @@ require 'open-uri'
   end
 %>
 <%=raw render :text => output%>
- </div>
- </div>
-<div class="RightContent">
-<div class="Section">
-<div>
-<script type="text/javascript"><!--
-google_ad_client = "pub-6224413059041410";
-/* 120x600, created 4/16/11 */
-google_ad_slot = "4336730596";
-google_ad_width = 200;
-google_ad_height = 600;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>
-</div>
-<div class="Section">
-<div>
-<script type="text/javascript"><!--
-google_ad_client = "pub-6224413059041410";
-/* 120x600, created 4/16/11 */
-google_ad_slot = "4336730596";
-google_ad_width = 200;
-google_ad_height = 600;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>
-</div>
-</div>
-</div>
-<div class="footer">
-<div class="clear"></div>
-Copyright 2011 &copy; chattytree.com, All rights reserved.
-</div>
-</div>
-</div>
-</div>
-</center>
-</body>
+<%= render 'partials/bottom' %>
