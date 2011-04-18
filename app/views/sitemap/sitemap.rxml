@@ -19,51 +19,51 @@ xml.urlset "xmlns" => "http://www.sitemaps.org/schemas/sitemap/0.9" do
       xml.loc "http://www.chattytree.com/groupon/albany_capital_region"
     end
 	xml.url do
-	  xml.loc "http://chattytree.com/groupon/albuquerque"
+	  xml.loc "http://www.chattytree.com/groupon/albuquerque"
 	end    
 	xml.url do
-	  xml.loc "http://chattytree.com/groupon/allentown_reading"
+	  xml.loc "http://www.chattytree.com/groupon/allentown_reading"
 	end    	
 	xml.url do
-	  xml.loc "http://chattytree.com/groupon/amarillo"
+	  xml.loc "http://www.chattytree.com/groupon/amarillo"
 	end  	
 	xml.url do
-	  xml.loc "http://chattytree.com/groupon/anchorage"
+	  xml.loc "http://www.chattytree.com/groupon/anchorage"
 	end 	
 	xml.url do
-	  xml.loc "http://chattytree.com/groupon/ann_arbor"
+	  xml.loc "http://www.chattytree.com/groupon/ann_arbor"
 	end 
 	xml.url do
-	  xml.loc "http://chattytree.com/groupon/appleton"
+	  xml.loc "http://www.chattytree.com/groupon/appleton"
 	end 
 	xml.url do
-	  xml.loc "http://chattytree.com/groupon/asheville"
+	  xml.loc "http://www.chattytree.com/groupon/asheville"
 	end 
 	xml.url do
-	  xml.loc "http://chattytree.com/groupon/athens_ga"
+	  xml.loc "http://www.chattytree.com/groupon/athens_ga"
 	end 
 	xml.url do
-	  xml.loc "http://chattytree.com/groupon/atlanta"
+	  xml.loc "http://www.chattytree.com/groupon/atlanta"
 	end 
 	xml.url do
-	  xml.loc "http://chattytree.com/groupon/augusta"
+	  xml.loc "http://www.chattytree.com/groupon/augusta"
 	end 
 	xml.url do
-	  xml.loc "http://chattytree.com/groupon/austin"
+	  xml.loc "http://www.chattytree.com/groupon/austin"
 	end 
 	xml.url do
-	  xml.loc "http://chattytree.com/groupon/chicago"
+	  xml.loc "http://www.chattytree.com/groupon/chicago"
 	end 
 	xml.url do
-	  xml.loc "http://chattytree.com/groupon/los_angeles"
+	  xml.loc "http://www.chattytree.com/groupon/los_angeles"
 	end 				
 	xml.url do
-	  xml.loc "http://chattytree.com/groupon/miami"
+	  xml.loc "http://www.chattytree.com/groupon/miami"
 	end 
 	xml.url do
-	  xml.loc "http://chattytree.com/groupon/phoenix"
+	  xml.loc "http://www.chattytree.com/groupon/phoenix"
 	end 
 	xml.url do
-	  xml.loc "http://chattytree.com/woot/index"
+	  xml.loc "http://www.chattytree.com/woot/index"
 	end 									
 end
