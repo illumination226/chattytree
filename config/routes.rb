@@ -75,6 +75,8 @@ Chattytree::Application.routes.draw do
   # just remember to delete public/index.html.
   # root :to => "welcome#index"
   root :controller => 'home', :action => 'index'
+  
+  match "/sitemap.xml" => 'sitemap#sitemap'
 
   # See how all your routes lay out with "rake routes"
 
