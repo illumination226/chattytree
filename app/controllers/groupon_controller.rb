@@ -3,18 +3,82 @@ class GrouponController < ApplicationController
   	@output = parseFeed("http://feeds.feedburner.com/groupon")
   end
   
-  def phoenix
-  	@output = parseFeed("http://feeds.feedburner.com/grouponphoenix")
+  def abbotsford
+  	@output = parseFeed("http://feeds.feedburner.com/grouponabbotsford")
+  end    
+  
+  def abilene
+  	@output = parseFeed("http://feeds.feedburner.com/grouponabilene")
+  end     
+  
+  def akron-canton
+  	@output = parseFeed("http://feeds.feedburner.com/grouponakron-canton")
   end  
+  
+  def albany-capital-region
+  	@output = parseFeed("http://feeds.feedburner.com/grouponalbany-capital-region")
+  end      
+  
+  def albuquerque
+  	@output = parseFeed("http://feeds.feedburner.com/grouponalbuquerque")
+  end    
+  
+  def allentown-reading
+  	@output = parseFeed("http://feeds.feedburner.com/grouponallentown-reading")
+  end 
+  
+  def amarillo
+  	@output = parseFeed("http://feeds.feedburner.com/grouponamarillo")
+  end  
+  
+  def anchorage
+  	@output = parseFeed("http://feeds.feedburner.com/grouponanchorage")
+  end      
+  
+  def ann-arbor
+  	@output = parseFeed("http://feeds.feedburner.com/grouponann-arbor")
+  end     
+  
+  def appleton
+  	@output = parseFeed("http://feeds.feedburner.com/grouponappleton")
+  end  
+  
+  def asheville
+  	@output = parseFeed("http://feeds.feedburner.com/grouponasheville")
+  end   
+  
+  def athens-ga
+  	@output = parseFeed("http://feeds.feedburner.com/grouponathens-ga")
+  end   
+  
+  def atlanta
+  	@output = parseFeed("http://feeds.feedburner.com/grouponatlanta")
+  end    
+  
+  def augusta
+  	@output = parseFeed("http://feeds.feedburner.com/grouponaugusta")
+  end   
+  
+  def austin
+  	@output = parseFeed("http://feeds.feedburner.com/grouponaustin")
+  end   
   
   def chicago
   	@output = parseFeed("http://feeds.feedburner.com/groupon")
-  end  
+  end   
+  
+  def los-angeles
+  	@output = parseFeed("http://feeds.feedburner.com/grouponlos-angeles")
+  end
   
   def miami
   	@output = parseFeed("http://feeds.feedburner.com/grouponmiami")
-  end      
+  end   
   
+  def phoenix
+  	@output = parseFeed("http://feeds.feedburner.com/grouponphoenix")
+  end       
+
     def parseFeed (url)
       require 'rss/2.0'
 	  require 'open-uri'
