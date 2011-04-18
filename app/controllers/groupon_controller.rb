@@ -11,11 +11,11 @@ class GrouponController < ApplicationController
   	@output = parseFeed("http://feeds.feedburner.com/grouponabilene")
   end     
   
-  def akron-canton
+  def akron_canton
   	@output = parseFeed("http://feeds.feedburner.com/grouponakron-canton")
   end  
   
-  def albany-capital-region
+  def albany_capital_region
   	@output = parseFeed("http://feeds.feedburner.com/grouponalbany-capital-region")
   end      
   
@@ -23,7 +23,7 @@ class GrouponController < ApplicationController
   	@output = parseFeed("http://feeds.feedburner.com/grouponalbuquerque")
   end    
   
-  def allentown-reading
+  def allentown_reading
   	@output = parseFeed("http://feeds.feedburner.com/grouponallentown-reading")
   end 
   
@@ -35,7 +35,7 @@ class GrouponController < ApplicationController
   	@output = parseFeed("http://feeds.feedburner.com/grouponanchorage")
   end      
   
-  def ann-arbor
+  def ann_arbor
   	@output = parseFeed("http://feeds.feedburner.com/grouponann-arbor")
   end     
   
@@ -47,7 +47,7 @@ class GrouponController < ApplicationController
   	@output = parseFeed("http://feeds.feedburner.com/grouponasheville")
   end   
   
-  def athens-ga
+  def athens_ga
   	@output = parseFeed("http://feeds.feedburner.com/grouponathens-ga")
   end   
   
@@ -67,7 +67,7 @@ class GrouponController < ApplicationController
   	@output = parseFeed("http://feeds.feedburner.com/groupon")
   end   
   
-  def los-angeles
+  def los_angeles
   	@output = parseFeed("http://feeds.feedburner.com/grouponlos-angeles")
   end
   
